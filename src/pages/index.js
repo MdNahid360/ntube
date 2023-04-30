@@ -1,10 +1,6 @@
 import 'plyr/dist/plyr.css';
 import Plyr from 'plyr';
-import { TbPlayerPlayFilled, TbPlayerPauseFilled} from 'react-icons/tb';
 import { useRef, useEffect, useState } from 'react';
-import Navigation from './Component/Navigation';
-import ReactPlayer from 'react-player'
-;
 
 import dynamic from 'next/dynamic';
 const DynamicReactPlayer = dynamic(() => import('react-player'), {
